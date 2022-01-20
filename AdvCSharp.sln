@@ -5,8 +5,6 @@ VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReviewLinq", "ReviewLinq\ReviewLinq.csproj", "{C382BBCE-C005-43DE-9463-A9ED0E4686A4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{283D7DF0-C8DD-4D5E-95A1-834CB48FAB30}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevDelegate", "RevDelegate\RevDelegate.csproj", "{8DCB825B-B444-42E0-80D4-05FEECA4700D}"
 EndProject
 Global
