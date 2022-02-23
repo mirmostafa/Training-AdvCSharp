@@ -1,2 +1,2 @@
-# Trn_AdvCSharp
+# Train Advanced CSharp
 Advanced C# Training Course
