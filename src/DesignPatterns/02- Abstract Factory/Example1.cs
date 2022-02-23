@@ -1,14 +1,14 @@
 ﻿namespace DesignPatterns._02__Abstract_Factory;
 
-internal interface ISandwich { }
+public interface ISandwich { }
 
-internal interface IDessert { }
+public interface IDessert { }
 
-internal interface IChild { }
+public interface IChild { }
 
-internal interface IAdult { }
+public interface IAdult { }
 
-internal interface IKitchen
+public interface IKitchen
 {
     void CreateMenuForAdult<TSandwich, TDessert>(TSandwich sandwich, TDessert dessert)
         where TSandwich : ISandwich, IAdult
@@ -21,12 +21,12 @@ internal interface IKitchen
     (ISandwich, IDessert) GetFoodForChild();
 }
 
-internal interface IRecipeFactory
+public interface IRecipeFactory
 {
     (ISandwich, IDessert) CreateRecipe();
 }
 
-internal class AdultRecipeFactory : IRecipeFactory
+public class AdultRecipeFactory : IRecipeFactory
 {
     private readonly IKitchen _kitchen;
 
@@ -40,7 +40,7 @@ internal class AdultRecipeFactory : IRecipeFactory
     }
 }
 
-internal class ChildRecipeFactory : IRecipeFactory
+public class ChildRecipeFactory : IRecipeFactory
 {
     private readonly IKitchen _kitchen;
 
@@ -51,21 +51,5 @@ internal class ChildRecipeFactory : IRecipeFactory
     public (ISandwich, IDessert) CreateRecipe()
     {
         return _kitchen.GetFoodForChild();
-    }
-}
-
-internal class Woker
-{
-    private readonly IRecipeFactory _adult;
-    private readonly IRecipeFactory _child;
-
-    public Woker(IRecipeFactory adult, IRecipeFactory child)
-    {
-        this._adult = adult;
-        this._child = child;
-    }
-    public void Do(bool forAdult)
-    {
-        (ISandwich sandwich, IDessert dessert) result = forAdult == true ? this._adult.CreateRecipe() : this._child.CreateRecipe();
     }
 }
