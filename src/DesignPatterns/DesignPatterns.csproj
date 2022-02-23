@@ -7,18 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract Factory\" />
-    <Folder Include="Builder\" />
-    <Folder Include="Factory Method\" />
-    <Folder Include="Adapter\" />
-    <Folder Include="Composite\" />
-    <Folder Include="Facade\" />
-    <Folder Include="Command\" />
-    <Folder Include="Iterator\" />
-    <Folder Include="Mediator\" />
-    <Folder Include="Strategy\" />
-    <Folder Include="Observer\" />
-    <Folder Include="Singleton\" />
+    <Folder Include="02- Abstract Factory\" />
+    <Folder Include="02- Builder\" />
+    <Folder Include="021- Factory Method\" />
+    <Folder Include="07- Adapter\" />
+    <Folder Include="03- Composite\" />
+    <Folder Include="09- Facade\" />
+    <Folder Include="08- Command\" />
+    <Folder Include="04- Iterator\" />
+    <Folder Include="05- Mediator\" />
+    <Folder Include="10- Strategy\" />
+    <Folder Include="06- Observer\" />
+    <Folder Include="01- Singleton\" />
   </ItemGroup>
 
 </Project>
