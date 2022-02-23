@@ -6,8 +6,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="02- Builder\" />
-        <Folder Include="021- Factory Method\" />
         <Folder Include="07- Adapter\" />
         <Folder Include="03- Composite\" />
         <Folder Include="09- Facade\" />
