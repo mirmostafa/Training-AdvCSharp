@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract Factory\" />
+    <Folder Include="Builder\" />
+    <Folder Include="Factory Method\" />
+    <Folder Include="Adapter\" />
+    <Folder Include="Composite\" />
+    <Folder Include="Facade\" />
+    <Folder Include="Command\" />
+    <Folder Include="Iterator\" />
+    <Folder Include="Mediator\" />
+    <Folder Include="Strategy\" />
+    <Folder Include="Observer\" />
+    <Folder Include="Singleton\" />
+  </ItemGroup>
+
+</Project>
