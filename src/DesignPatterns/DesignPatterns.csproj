@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Configurations>Debug;Release;</Configurations>
+        <RepositoryUrl>https://github.com/mirmostafa/train-AdvCSharp.git</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="02- Abstract Factory\" />
+        <Folder Include="02- Builder\" />
+        <Folder Include="021- Factory Method\" />
+        <Folder Include="07- Adapter\" />
+        <Folder Include="03- Composite\" />
+        <Folder Include="09- Facade\" />
+        <Folder Include="08- Command\" />
+        <Folder Include="04- Iterator\" />
+        <Folder Include="05- Mediator\" />
+        <Folder Include="10- Strategy\" />
+        <Folder Include="06- Observer\" />
+    </ItemGroup>
+
+</Project>
